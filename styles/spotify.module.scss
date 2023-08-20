@@ -1,0 +1,63 @@
+.pageContainer {
+    position: relative;
+    display: flex;
+    padding: 8px;
+    background-color: #1f1f1f;
+    // gap: 8px;
+    justify-content: flex-start;
+    height: 100vh;
+    padding-bottom: 88px;
+}
+
+.left {
+    width: 20%;
+    height: 100%;
+    background-color: #1f1f1f;
+    color: white;
+    padding: 0 8px 0 0;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    justify-content: flex-start;
+}
+
+.leftTop, .leftBottom{
+    border-radius: 8px;
+    background-color: #333333;
+}
+
+.leftTop{
+    height: 19%;
+}
+
+.leftBottom{
+    height: 80%;
+}
+
+.middle {
+    width: 60%;
+    height: 100%;
+    background-color: #4b4747;
+    color: white;
+    border-radius: 8px;
+    margin-right: 8px;
+}
+
+.right {
+    width: 20%;
+    height: 100%;
+    background-color: #333333;
+    color: white;
+    border-radius: 8px;
+}
+
+.footer {
+    width: 100vw;
+    height: 80px;
+    background-color: #0a0a0a;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    color: white;
+    opacity: 0.4;
+}

@@ -1,0 +1,18 @@
+.componentWrapper{
+    width: 100%;
+    padding: 8px;
+}
+
+.linkWrapper{
+    width: 100;
+    font-weight: 500;
+    color: #6d6d6d;
+    margin-bottom: 8px;
+    font-size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+
+    &:hover{
+        color: #ffffff;
+    }
+}

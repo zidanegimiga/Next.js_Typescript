@@ -1,0 +1,14 @@
+.navSearch {
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #333333;
+    border: none;
+    outline: none;
+    color: white;
+    padding-left: 8px;
+
+    &:focus {
+        border: white solid 2px;
+    }
+}
